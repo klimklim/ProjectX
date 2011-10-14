@@ -1,0 +1,96 @@
+@charset "Shift_JIS";
+/* CSS Document */
+/*===========import=============*/
+@import url("XXX.css");
+@import url("clearfix.css");
+@import url("reset.css");
+/*reset入り*/
+body{margin: 0px;}
+br {letter-spacing: 0;}/*ie6の改行のバグをなくす*/
+img {vertical-align:bottom}/*tableの画像の隙間をなくす*/
+
+
+/*===========変更エリア=============*/
+body{
+	background:url(../img/bg_common.jpg) center top fixed;
+	font-family:"メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:12px;
+	line-height:1.7em;
+	letter-spacing:0.1em;
+	color:#696969
+	}
+
+a:link{color:#f15f99; text-decoration:underline; outline:none;}
+a:visited{color:#f15f99; text-decoration:underline; outline:none;}
+a:active{color:#f15f99; text-decoration:underline; outline:none;}
+a:hover{color:#df0070; text-decoration:none; border-bottom:none; outline:none;}
+
+#container a:hover img{ filter: alpha(opacity=80); -moz-opacity:0.8; opacity:0.8;}
+#container a:hover img.none{ filter: alpha(opacity=100); -moz-opacity:1; opacity:1; }
+
+strong{}
+
+/*===========common=============*/
+#container{text-align:center;}
+#contents{ width:990px; margin:0px auto 0px auto; text-align:left;}
+
+#aside{}
+	#aside #sRectangle{}
+	#aside #sMovie{}
+	#aside #sMobile{}
+	#aside #sSns{}
+	#aside #sBtnFoot ul{}
+		#aside #sBtnFoot li{}
+	
+#footer{}
+
+/*===========top=============*/
+#top{}
+
+#top #headerTypeA{}
+	#top #headerTypeA .main h1{}
+	#top #headerTypeA .nav{}
+	#top #headerTypeA .nav ul{ width:995px; margin-left:-5px;}
+	#top #headerTypeA .nav li{ margin-right:5px; }
+
+#top #headerTypeB{}
+	#top #headerTypeB .main h1{}
+	#top #headerTypeB .nav{}
+	#top #headerTypeB .nav ul{}
+	#top #headerTypeB .nav li{}
+
+#top #article{}
+	#top #news h2{}
+	#top #news ul{}
+	#top #newsp li{}
+	#top #newsp li span{ display:block; float:left; width:6em;}
+	#top #newsp li em{ display:block; float:left; width:100px;}	
+	#top #article .bnrTop640{}
+	#top #article .bnrTop315{}
+
+/*===========second=============*/
+#second{}
+	#second h2{}
+	#second h3{}
+
+#second #headerTypeA{}
+	#second #headerTypeA .main h1{}
+	#second #headerTypeA .nav{}
+	#second #headerTypeA .nav ul{}
+	#second #headerTypeA .nav li{}
+
+#second #headerTypeB{}
+	#second #headerTypeB .main h1{}
+	#second #headerTypeB .nav{}
+	#second #headerTypeB .nav ul{}
+	#second #headerTypeB .nav li{}
+
+#intro{}
+
+#second .pulldownMenu{}
+
+#second .textBox{}
+	#second .textBox .rightImage{}
+	#second .textBox .leftImage{}
+
+
